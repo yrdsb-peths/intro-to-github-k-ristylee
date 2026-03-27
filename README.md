@@ -31,8 +31,9 @@ Adding and removing files are just more changes to the repository that will get 
 1. Create a `Student.java` file. Do this by clicking `Add file` -> `Create new file` and name the file `Student.java`. Add the follwing code to that file. Commit your changes.
 
 ```
-public class Student {
-    String firstName;
+public class Student
+{
+    String firstName = "Kristy";
 }
 ```
 
@@ -40,8 +41,8 @@ public class Student {
 
 ```
 public class Student {
-    String firstName;
-    int age;
+    String firstName = "Kristy";
+    int age = 16;
 }
 ```
 
